@@ -1,0 +1,77 @@
+body{
+    color: #5a5a5a;
+    scroll-behavior: smooth;
+}
+
+.navbar-wrapper{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+.fa-facebook-square{
+    background-color: white;
+    color: rgb(49, 49, 177);
+}
+.fa-twitter-square{
+    background-color: white;
+    color: rgb(44, 153, 241);
+}
+
+.navbar-wrapper > .container{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-wrapper .navbar {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.navbar-wrapper .navbar .container{
+    width: auto;
+}
+.bd-example{
+    padding-bottom: 50px;
+}
+
+.col-lg-4 a{
+    font-size: 30px;
+}
+
+.team > .row > .col-lg-4{
+    text-align: center;
+    padding: 20px;
+}
+.team p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.divider{
+
+    color: grey;
+    border: 0.8px solid grey;
+}
+.content{
+    padding: 50px;
+}
+.colors{
+    text-align: center;
+    padding-top: 100px;
+}
+.foot{
+    background-color: rgba(94, 87, 87, 0.315);
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.foot a{
+    text-decoration: none;
+    color: white
+}
+.top{
+    font-size: 30px
+}
